@@ -1,3 +1,4 @@
-require "json"
+require './lib/bill_generator'
 
-# your code
+b = BillGenerator.new('data.json')
+b.checkout('output_level1.json')

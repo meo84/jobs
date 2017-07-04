@@ -24,3 +24,21 @@ For higher levels we are interested in seeing code that is:
 ## Things to know
 
 - all prices are stored as integers (in cents)
+
+## How to test the code I submitted
+
+### With RSpec
+
+- Install RSpec:
+$ cd backend/
+$ bundle install
+
+- Run RSpec for level X:
+$ cd levelX/
+$ rspec
+
+### Manually
+
+$ cd backend/levelX/
+$ ruby main.rb
+=> See the generated output file `output_levelX.json` in the same level directory
